@@ -1,10 +1,16 @@
 import React from 'react'
-import Header from '../components/Header'
+import AboutUs from '../components/AboutUs'
+import Project from '../components/Project'
+import Testimonials from '../components/Testimonials'
+import Contact from '../components/Contact'
 
 const Home = () => {
   return (
     <div>
-      d
+      <AboutUs />
+      <Project />
+      <Testimonials />
+      <Contact />
     </div>
   )
 }

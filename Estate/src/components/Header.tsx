@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 const Header = () => {
   return (
-    <div className='w-full overflow-hidden min-h-screen bg-cover bg-center' style={{backgroundImage: "url('/header_img.png')"}} id='Header'>
+    <div className='w-full overflow-hidden min-h-screen bg-cover bg-center' style={{backgroundImage: "url('/header_img.png')"}} id='header'>
         <Navbar />
     <div className='flex flex-col h-screen items-center justify-center'>
         <p className='text-white text-[75px] font-bold text-center w-[750px] leading-none mt-20'>
