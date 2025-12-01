@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import right_arrows from "../assets/right_arrow.svg";
 import left_arrows from "../assets/left_arrow.svg";
 import { projectsData } from "../assets/assets";
