@@ -8,7 +8,7 @@ const Header: React.FC = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="w-full overflow-hidden min-h-[70vh] sm:min-h-screen bg-cover bg-center"
+      className="w-full overflow-hidden min-h-[50vh] lg:min-h-screen bg-cover bg-center"
       style={{ backgroundImage: "url('/header_img.png')" }}
       id="header"
     >
