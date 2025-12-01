@@ -76,6 +76,10 @@ const AboutUs: React.FC = () => {
               sm:w-[350px] 
               md:w-[380px] 
               lg:w-[400px]
+              mx-auto
+              lg:mx-0
+              md: text-center
+              lg:text-center
             "
           >
             <motion.div 
@@ -117,7 +121,7 @@ const AboutUs: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="text-gray-500 mt-10"
+            className="text-gray-500 mt-10 text-center md:text-center lg:text-left"
           >
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid soluta non laborum, totam ullam perspiciatis dolores reiciendis nesciunt, magnam possimus recusandae dolorum ipsum libero nostrum natus nihil? Eius, vitae dolorum?
           </motion.p>
@@ -130,7 +134,7 @@ const AboutUs: React.FC = () => {
             transition={{ duration: 0.6, delay: 0.5 }}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="px-7 py-2 mt-5 bg-blue-600 rounded-xl text-white w-[150px]"
+            className="px-7 py-2 mt-5 bg-blue-600 rounded-xl text-white w-[150px] mx-auto lg:mx-0"
           >
             Learn More
           </motion.button>

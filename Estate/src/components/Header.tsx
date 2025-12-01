@@ -8,7 +8,7 @@ const Header: React.FC = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="w-full overflow-hidden min-h-screen bg-cover bg-center"
+      className="w-full overflow-hidden min-h-[70vh] sm:min-h-screen bg-cover bg-center"
       style={{ backgroundImage: "url('/header_img.png')" }}
       id="header"
     >
@@ -25,7 +25,8 @@ const Header: React.FC = () => {
             font-bold 
             text-center 
             leading-none 
-            mt-20
+            mt-14
+            sm:mt-20
             text-[40px] 
             sm:text-[55px] 
             md:text-[65px] 
@@ -58,7 +59,7 @@ const Header: React.FC = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             href="#project"
-            className="border text-white rounded-sm px-5 py-2 text-sm text-center"
+            className="border text-white rounded-sm w-[70vw] sm:w-auto px-5 py-2 text-sm text-center"
           >
             Projects
           </motion.a>
@@ -67,7 +68,7 @@ const Header: React.FC = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             href="#contact"
-            className="bg-blue-500 text-white rounded-sm px-5 py-2 text-sm text-center"
+            className="bg-blue-500 text-white rounded-sm w-[70vw] sm:w-auto px-5 py-2 text-sm text-center"
           >
             Contact Us
           </motion.a>
